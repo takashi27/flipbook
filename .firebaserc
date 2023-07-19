@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "flip-book-telecenter": {
+      "hosting": {
+        "flipbook": [
+          "flip-book-telecenter"
+        ]
+      }
+    }
+  }
+}

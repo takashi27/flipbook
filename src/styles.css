@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: url('./assets/fondo-book.png');
+    background-size: cover;
+}
+
+audio::-webkit-media-controls-panel,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline-container,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button,
+audio::-webkit-media-controls-fullscreen-button,
+audio::-webkit-media-controls-rewind-button,
+audio::-webkit-media-controls-return-to-realtime-button,
+audio::-webkit-media-controls-toggle-closed-captions-button {
+    background-color: #03A9F4;
+}
+
+.eje {
+    width: 500px;
+    height: 200px;
+    border: blueviolet 1px;
+    background-color: brown;
+}
+
+.manita {
+    cursor: pointer;
+}

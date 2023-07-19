@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import * as $ from 'jquery';
+import '../depen/js/dist/3dflipbook.min.js';
 
 @Component({
   selector: 'app-root',

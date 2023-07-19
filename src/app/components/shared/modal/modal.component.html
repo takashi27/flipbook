@@ -1,0 +1,12 @@
+<div class="modal-header text-center">
+    <h4 class="modal-title text-white">Contraseña Requerida</h4>
+</div>
+<div class="modal-body">
+    <div class="input-group mb-3">
+        <input type="password" [(ngModel)]="pass" class="form-control" placeholder="Ingresa la contraseña" (keyup.enter)="comprobar()">
+        <div class="input-group-append">
+            <button class="btn btn-outline-success" type="button" id="button-addon2" (click)="comprobar()">Aceptar</button>
+        </div>
+    </div>
+    <span class="animate__animated animate__bounce text-danger" *ngIf="show">Contraseña Incorrecta</span>
+</div>
